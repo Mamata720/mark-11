@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    background-image: url("background_image.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+} 
+ h1{
+    color: goldenrod;
+}
+div{
+    width: 400px;
+  border: 15px solid gold;
+  padding: 50px;
+  margin: 40px;
+  margin-left: 60%;
+  margin-top: 8%;
+} 
+
+.header{
+    text-align: center;
+    padding: 3rem;
+    color: tomato;
+}
+.container{
+    margin: auto;
+    width: 300px;
+}
+label,input{
+    display: block;
+    margin-top: 2rem;
+    width: 100%;
+}
+input{
+    border: 2p solid black;
+    height: 40px;
+    border-radius: 3px;
+    
+}
+label{
+    color:white;
+    font-size:1.5rem ;
+    
+}
+input{
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+#calculate-number{
+    background-color: var(--background-dark);
+  border: 2px solid black;
+  color: var(--black);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  color: paleturquoise;
+}
+#output-container{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+} 
+/* footer{
+    margin-top: 8%;
+    margin-left: 45%;
+
+}
+.sub-img{
+    height: 74;
+    width: 6%;
+}
+.img{
+    height: 74;
+    width: 6%;
+    margin-left: 20px;
+} */
